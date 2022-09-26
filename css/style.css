@@ -234,3 +234,44 @@ section {
 iframe {
     max-width: 100%;
 }
+
+footer {
+    border-top: 1px solid #7e7e7e;
+    padding-top: 44px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .social {
+    background: rgb(105, 103, 245);
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+footer .social a {
+    color: #fff;
+}
+
+.go-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: rgb(105, 103, 245);
+    columns: white;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
