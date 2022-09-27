@@ -275,3 +275,36 @@ footer .social a {
     cursor: pointer;
     z-index: 1000;
 }
+
+.navbar-toggler {
+    padding: .10rem .45rem;
+    border: 1px solid white;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler i.bi-list {
+    color: white;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        padding-bottom: 19px;
+    }
+    .wave {
+        padding-top: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-center-xs {
+        text-align: center;
+    }
+    .text-center-xs img {
+        width: 366px;
+    }
+}

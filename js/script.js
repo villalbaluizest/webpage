@@ -31,4 +31,13 @@ $(document).ready(function() {
         }
     });
 
+    $("#navbarNav").on('show.bs.collapse', function() {
+
+        $(".navbar").addClass("navbar-fixed");
+
+        $('a.nav-link, a.btn-custom').click(function() {
+            $("#navbarNav").collapse('hide');
+        });
+    });
+
 });
