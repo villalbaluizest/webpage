@@ -9,15 +9,15 @@ $(window).on("scroll", function() {
 })
 
 $(document).ready(function() {
-    var portafolioIsotope = $('.portafolio-container').isotope({
-        itemSelector: '.portafolio-item'
+    var hobbieIsotope = $('.hobbie-container').isotope({
+        itemSelector: '.hobbie-item'
     });
 
-    $('#portafolio-filters li').on("click", function() {
-        $("#portafolio-filters li").removeClass('filter-active');
+    $('#hobbie-filters li').on("click", function() {
+        $("#hobbie-filters li").removeClass('filter-active');
         $(this).addClass('filter-active');
 
-        portafolioIsotope.isotope({
+        hobbieIsotope.isotope({
             filter: $(this).data('filter')
         });
     });
