@@ -233,6 +233,13 @@ section {
     color: rgb(91, 88, 247);
 }
 
+.btn-contacto {
+    background-color: #82b8fe;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
 iframe {
     max-width: 100%;
 }
